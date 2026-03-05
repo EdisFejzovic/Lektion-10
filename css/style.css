@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #4a6cf7;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* Header text */
+.header-bottom {
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.header-bottom h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background: #ff7a18;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Main */
+main {
+    padding: 60px 10%;
+}
+
+/* Services top */
+.service-top {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-top h1 {
+    margin-bottom: 10px;
+}
+
+/* Services grid */
+.service-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.service-item h3 {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 60px 10%;
+}
+
+.forma-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Social media */
+.social-media {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media li {
+    margin: 10px 15px;
+    font-size: 14px;
+}
